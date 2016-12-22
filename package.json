@@ -4,7 +4,8 @@
   "description": "simple rest api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,8 @@
   "devDependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "mongoose": "^4.6.6"
+    "mongoose": "^4.6.6",
+    "nodemon": "^1.11.0"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
